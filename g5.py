@@ -11,14 +11,14 @@ player = Actor('character_0000', pos=(WIDTH//2,HEIGHT//2))
 player = Actor('character_0008', Pos=(50,50))
 speed = 3
 
-music.play('bgmusic')
+#music.play('bgmusic')
 
 def draw():
 
     Screen.fill('black')
     player.draw()   
     item.draw()
-    screen.draw.text(f'SCORE : {score}', topleft=(10,500-30) color='white')
+    screen.draw.text(f'SCORE : {score}', topleft=(10,500-30)', color='white')
 
 def update():
     global score # global variable
