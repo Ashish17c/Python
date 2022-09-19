@@ -1,0 +1,1 @@
+list1 = ["Nikhlesh", "Aman","Rahul", 'Devansh', 'Ri']
